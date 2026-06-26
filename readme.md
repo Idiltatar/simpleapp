@@ -1,17 +1,40 @@
-# Devops Example Project
+# SimpleApp
 
-# Project Dependencies
-1. Node.js
-2. Truffle
-...
----
-# Install Dependencies
-1. use the cd command to navigate to the downloaded projects directory
-2. Run the npm install command
+SimpleApp is a Node.js and Express application created for DevOps and deployment practice.
 
-# Run Project
-1. use the cd command to navigate to the downloaded projects directory
-2. Run the npm start command to run the project
+The project demonstrates a small web application structure that can be installed locally and used as a base for deployment, environment configuration and cloud hosting exercises.
 
-***
+## Tech Stack
 
+- Node.js
+- Express
+- EJS templates
+- CSS
+
+## Features
+
+- Express application structure
+- EJS views for home, about and contact pages
+- Static CSS assets
+- Local development server
+- Suitable for deployment practice on cloud infrastructure
+
+## How to Run Locally
+
+### 1. Install dependencies
+
+```bash
+npm install
+```
+
+### 2. Start the app
+
+```bash
+npm start
+```
+
+The app runs locally using the Express server defined in `bin/www`.
+
+## Project Status
+
+This project is part of my DevOps and web application portfolio. It demonstrates a simple Node.js application prepared for deployment and operational practice.
